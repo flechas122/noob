@@ -27,3 +27,11 @@ img{
 .Decoracionesp>.callout:hover{
   background-color: green;
 }
+
+.switch{
+  text-align: center;
+}
+
+fieldset>p{
+  text-align: center;
+}

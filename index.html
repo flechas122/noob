@@ -59,8 +59,64 @@
 
         <div class="large-2  column Busqueda">
           <div class="callout">
-            <h5>Busqueda avanzada</h5>
+            <div class="text-center">
+              <h5>Busqueda avanzada</h5> <hr>
+            </div>
+            <label>por nombre
+              <input type="text">
+            </label>
+            <label for="">referencia
+              <input type="text">
+              <p class="help-text"> numero unico de referencia </p>
+            </label>
+            <label for=""> por categoria:
+              <select>
+                <option>hogar</option>
+                <option>salud</option>
+                <option>deporte</option>
+                <option>hogar</option>
+                <option>tecnologia</option>
+                <option>accesorios</option>
+                <option>ropa</option>
+                <option>mantenimiento</option>
+              </select>
+            </label> <br>
+            <fieldset>
+              <legend>Tipo de producto</legend>
+              <input type="checkbox"><label>Nuevo</label>
+              <input type="checkbox"><label>Usado</label>
+            </fieldset> <br>
+            <fieldset>
+              <legend>Tipo de precio</legend>
+              <input type="radio"><label>Oferta</label>
+              <input type="radio"><label>Pleno</label>
+            </fieldset><br>
+
+
+            <fieldset>
+              <p>¿buscar productos agotados?</p>
+              <div class="switch">
+                <input class="switch-input" id="switch-productos" type="checkbox">
+                <label class="switch-paddle" for="switch-productos">
+                  <span class="switch-active" aria-hidden="true">Si</span>
+                  <span class="switch-inactive" aria-hidden="true">No</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="text-center">
+              <hr>
+              <button type="submit" class="button">buscar <i class="step fi-magnifying-glass size-36 ">
+              </i>
+              </button>
+
+            </div>
+
+
+
+
           </div>
+
         </div>
 
           <div class="large-9 large-offset-1 column callout">
