@@ -1,0 +1,29 @@
+#botones{
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 0%;
+}
+
+.partif{
+  padding: 5%;
+  padding-top: 1%;
+}
+
+.migas{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+img{
+  max-height: 150px;
+  max-width: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Decoracionesp>.callout{
+  border-color: white;
+}
+.Decoracionesp>.callout:hover{
+  background-color: green;
+}
